@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<testsuite failures="0" skipped="0" name="cucumber-js" time="19.955844057" tests="10">
+  <testcase classname="Automation test for form" name="Verify checkout form order success" time="2.759350493">
+    <system-out><![CDATA[When Click on Signup Login button.........................................passed
+When Enter a valid email address and password.............................passed
+And Click on SignIn button................................................passed
+And Click on Form tab.....................................................passed
+Then Verify that if Shipping address same as billing checkbox is not ch...passed
+And Fill all the details in the form......................................passed
+When Click on Continue to checkout button.................................passed
+Then Verify that the order confirmation number is not empty...............passed]]></system-out>
+  </testcase>
+  <testcase classname="Automation test for form" name="Verify checkout form alert" time="1.8100203960000003">
+    <system-out><![CDATA[When Click on Signup Login button.........................................passed
+When Enter a valid email address and password.............................passed
+And Click on SignIn button................................................passed
+And Click on Form tab.....................................................passed
+Then Verify that if Shipping address same as billing checkbox is checkm...passed
+When Fill all the details in the form.....................................passed
+Then Submit the form and verify the alert message is shown and confirm ...passed
+When Click on Grid tab....................................................passed]]></system-out>
+  </testcase>
+  <testcase classname="Automation test for form" name="Verify Items in the grid" time="1.564410297">
+    <system-out><![CDATA[When Click on Signup Login button.........................................passed
+When Enter a valid email address and password.............................passed
+And Click on SignIn button................................................passed
+And Click on Form tab.....................................................passed
+Then Verify that the cart total shown is correct for the item prices ad...passed]]></system-out>
+  </testcase>
+  <testcase classname="Automation test for search" name="Verify Items in the grid" time="1.7019931970000002">
+    <system-out><![CDATA[When Click on Signup Login button.........................................passed
+When Enter a valid email address and password.............................passed
+And Click on SignIn button................................................passed
+And Click on Grid tab.....................................................passed
+Then Verify that in position 7 the product shown is "Super Pepperoni".....passed
+And Verify that in position 7 the price shown is "$10"....................passed]]></system-out>
+  </testcase>
+  <testcase classname="Automation test for search" name="Verify all the items have a non empty title, price, image and a button" time="1.915350099">
+    <system-out><![CDATA[When Click on Signup Login button.........................................passed
+When Enter a valid email address and password.............................passed
+And Click on SignIn button................................................passed
+And Click on Grid tab.....................................................passed
+Then Verify that all the items have a non empty title, price, image and...passed]]></system-out>
+  </testcase>
+  <testcase classname="Automation test for login" name="Successful User Login" time="0.908226796">
+    <system-out><![CDATA[When Click on Signup Login button.........................................passed
+When Enter a valid email address and password.............................passed
+And Click on SignIn button................................................passed
+Then Verify that welcome message with username is displayed...............passed]]></system-out>
+  </testcase>
+  <testcase classname="Automation test for login" name="Verify error message for invalid credentials" time="0.6970732949999999">
+    <system-out><![CDATA[When Click on Signup Login button.........................................passed
+When Enter an invalid email address and password..........................passed
+And Click on SignIn button................................................passed
+Then Verify that error message "Wrong credentials" is displayed...........passed]]></system-out>
+  </testcase>
+  <testcase classname="Automation test for login" name="Verify error message for blank credentials" time="0.693751894">
+    <system-out><![CDATA[When Click on Signup Login button.........................................passed
+When Enter blank email address and password...............................passed
+And Click on SignIn button................................................passed
+Then Verify that error message "Fields can not be empty" is displayed.....passed]]></system-out>
+  </testcase>
+  <testcase classname="Automation test for search" name="Verify successfull search" time="3.4638277939999997">
+    <system-out><![CDATA[When Click on Signup Login button.........................................passed
+When Enter a valid email address and password.............................passed
+And Click on SignIn button................................................passed
+And Click on Search tab...................................................passed
+And Enter a valid search term "automation"................................passed
+And Click on Search button................................................passed
+Then Verify search results are displayed and it contains "Found one res...passed]]></system-out>
+  </testcase>
+  <testcase classname="Automation test for search" name="Verify empty search" time="4.441839796">
+    <system-out><![CDATA[When Click on Signup Login button.........................................passed
+When Enter a valid email address and password.............................passed
+And Click on SignIn button................................................passed
+And Click on Search tab...................................................passed
+And Enter a valid search term ""..........................................passed
+And Click on Search button................................................passed
+Then Verify search results are displayed and it contains "Please provid...passed]]></system-out>
+  </testcase>
+</testsuite>

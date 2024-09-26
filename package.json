@@ -1,0 +1,29 @@
+{
+  "name": "test_qu",
+  "version": "1.0.0",
+  "description": "clear",
+  "main": "index.js",
+  "scripts": {
+    "setup": "cucumber-js test",
+    "report": "npx ts-node report.js",
+    "test": "npm run setup & npm run report"
+  },
+  "keywords": [
+    "pw",
+    "ts",
+    "js"
+  ],
+  "author": "Ratnesh",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.7.0",
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.44.0",
+    "cucumber-html-reporter": "^7.1.1",
+    "dotenv": "^16.4.5",
+    "javascript": "^1.0.0",
+    "log4js": "^6.9.1",
+    "playwright": "^1.44.0",
+    "ts-node": "^10.9.2"
+  }
+}

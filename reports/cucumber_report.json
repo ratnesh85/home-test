@@ -1,0 +1,1075 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "automation-test-for-form;verify-checkout-form-order-success",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify checkout form order success",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 966293899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "Click on Signup Login button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 311278299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter a valid email address and password",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206888899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Click on SignIn button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 196066300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Click on Form tab",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 256610599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify that if Shipping address same as billing checkbox is not checkmarked then checkmark it",
+            "match": {
+              "location": "src\\tests\\steps\\formsteps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109316899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Fill all the details in the form",
+            "match": {
+              "location": "src\\tests\\steps\\formsteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 367733899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Click on Continue to checkout button",
+            "match": {
+              "location": "src\\tests\\steps\\formsteps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65747600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Verify that the order confirmation number is not empty",
+            "match": {
+              "location": "src\\tests\\steps\\formsteps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188308900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 91105199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "automation-test-for-form;verify-checkout-form-alert",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify checkout form alert",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 382451799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Click on Signup Login button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 178539199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Enter a valid email address and password",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116314099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click on SignIn button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115563200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Click on Form tab",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 260790500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Verify that if Shipping address same as billing checkbox is checkmarked, then uncheckmark it",
+            "match": {
+              "location": "src\\tests\\steps\\formsteps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66425600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Fill all the details in the form",
+            "match": {
+              "location": "src\\tests\\steps\\formsteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 316302800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Submit the form and verify the alert message is shown and confirm the alert",
+            "match": {
+              "location": "src\\tests\\steps\\formsteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78291600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "Click on Grid tab",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 182587400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 112754199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "automation-test-for-form;verify-items-in-the-grid",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Verify Items in the grid",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 448872600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "Click on Signup Login button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179451800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "Enter a valid email address and password",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112684499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Click on SignIn button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79093800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Click on Form tab",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 485263499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Verify that the cart total shown is correct for the item prices added",
+            "match": {
+              "location": "src\\tests\\steps\\formsteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 212093999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46950100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "automation-test-for-form",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Automation test for form",
+    "tags": [],
+    "uri": "src\\tests\\features\\form.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "automation-test-for-search;verify-items-in-the-grid",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify Items in the grid",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 445345799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "Click on Signup Login button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 383969100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter a valid email address and password",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154620199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Click on SignIn button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96720000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Click on Grid tab",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238552499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify that in position 7 the product shown is \"Super Pepperoni\"",
+            "match": {
+              "location": "src\\tests\\steps\\gridsteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 169164700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Verify that in position 7 the price shown is \"$10\"",
+            "match": {
+              "location": "src\\tests\\steps\\gridsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151393900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 62227000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "automation-test-for-search;verify-all-the-items-have-a-non-empty-title,-price,-image-and-a-button",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify all the items have a non empty title, price, image and a button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 363411500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Click on Signup Login button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 177650100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Enter a valid email address and password",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114937100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Click on SignIn button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87270299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Click on Grid tab",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 272036900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Verify that all the items have a non empty title, price, image and a button",
+            "match": {
+              "location": "src\\tests\\steps\\gridsteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 854280800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 45763400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "automation-test-for-search",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Automation test for search",
+    "tags": [],
+    "uri": "src\\tests\\features\\grid.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "automation-test-for-login;successful-user-login",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Successful User Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 330536700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Click on Signup Login button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134880999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter a valid email address and password",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104762999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Click on SignIn button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95369399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify that welcome message with username is displayed",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 202113799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40562900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "automation-test-for-login;verify-error-message-for-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify error message for invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 269379099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Click on Signup Login button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170839199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Enter an invalid email address and password",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107440299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on SignIn button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91526700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Verify that error message \"Wrong credentials\" is displayed",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14262099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 43625899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "automation-test-for-login;verify-error-message-for-blank-credentials",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Verify error message for blank credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 293086899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "Click on Signup Login button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147788499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "Enter blank email address and password",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106811499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Click on SignIn button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87752699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Verify that error message \"Fields can not be empty\" is displayed",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9160599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 49151699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "automation-test-for-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Automation test for login",
+    "tags": [],
+    "uri": "src\\tests\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "automation-test-for-search;verify-successfull-search",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify successfull search",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 328121200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "Click on Signup Login button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165930499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter a valid email address and password",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104688899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Click on SignIn button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112837799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Click on Search tab",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 211304700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Enter a valid search term \"automation\"",
+            "match": {
+              "location": "src\\tests\\steps\\searchsteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52398499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Click on Search button",
+            "match": {
+              "location": "src\\tests\\steps\\searchsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67963299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Verify search results are displayed and it contains \"Found one result for\"",
+            "match": {
+              "location": "src\\tests\\steps\\searchsteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2388380100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32202799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "automation-test-for-search;verify-empty-search",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify empty search",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 269097799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Click on Signup Login button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161119000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Enter a valid email address and password",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100025700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Click on SignIn button",
+            "match": {
+              "location": "src\\tests\\steps\\loginsteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80970499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click on Search tab",
+            "match": {
+              "location": "src\\tests\\steps\\homesteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239421299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Enter a valid search term \"\"",
+            "match": {
+              "location": "src\\tests\\steps\\searchsteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50036400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Click on Search button",
+            "match": {
+              "location": "src\\tests\\steps\\searchsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81229800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Verify search results are displayed and it contains \"Please provide a search word.\"",
+            "match": {
+              "location": "src\\tests\\steps\\searchsteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3418521600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 41417699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "automation-test-for-search",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Automation test for search",
+    "tags": [],
+    "uri": "src\\tests\\features\\search.feature"
+  }
+]

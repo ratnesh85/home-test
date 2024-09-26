@@ -1,0 +1,13 @@
+{
+    "fullname": "John Doe",
+    "email": "john@email.com",
+    "address": "123 Main St, Anytown, USA",
+    "city": "Anytown",
+    "state": "CA",
+    "zip": "12345",
+    "cardname": "John Doe",
+    "cardnumber": "1234567890123456",
+    "expmonth": "January",
+    "expyear": "2025",
+    "cvv": "123"
+}
